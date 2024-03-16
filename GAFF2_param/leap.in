@@ -1,0 +1,5 @@
+source leaprc.gaff2
+loadamberparams 1m.frcmod
+1M = loadmol2 1m.mol2
+saveAmberParm 1M 1m.parm7 1m.rst7
+quit
